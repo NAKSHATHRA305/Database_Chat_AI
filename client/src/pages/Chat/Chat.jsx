@@ -3,7 +3,7 @@ import { Plus, User, LogOut, Menu, Download, X, Trash2, Edit2, Check } from "luc
 import "./Chat.css";
 
 // Backend API URL
-const API_BASE_URL = "http://localhost:8000/api";
+const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8000"
 
 function Chat() {
   const [user, setUser] = useState(null);
