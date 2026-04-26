@@ -3,7 +3,8 @@ fastapi==0.115.0
 uvicorn==0.30.6
 pymongo==4.5.0
 python-dotenv==1.0.0
-openai==1.3.0
+openai==1.51.0
+httpx==0.27.0
 # Use a wheel that doesn't require local C build tools.
 # For Python 3.13 on Windows, pin a newer pandas with prebuilt wheels.
 pandas==2.3.3
