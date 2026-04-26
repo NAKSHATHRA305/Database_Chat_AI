@@ -18,8 +18,9 @@ def is_docker():
 
 host = "postgres" if is_docker() else "localhost"
 
-POSTGRES_URI = os.environ.get(
-    "POSTGRES_URI",
+POSTGRES_URI = (
+    os.environ.get("POSTGRES_URI") or
+    os.environ.get("DATABASE_URL") or
     f"postgresql://postgres:1234@{host}:5432/canopy_db"
 )
 
