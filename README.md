@@ -27,4 +27,4 @@ React frontend → FastAPI backend → OpenAI GPT (prompt engineering)
 ## Run Locally
 git clone https://github.com/NAKSHATHRA305/Database_Chat_AI
 docker-compose up --build
-# Visit http://localhost:3000
+
