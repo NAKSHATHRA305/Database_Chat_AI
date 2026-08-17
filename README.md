@@ -3,7 +3,6 @@
 A full-stack LLM-integrated web application that lets users design 
 database schemas through natural language — no SQL knowledge required.
 
-🔗 **Live Demo:** https://database-chat-ai-frontend.up.railway.app/
 
 ## What it does
 Type what you need in plain English. The app uses OpenAI GPT to 
